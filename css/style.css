@@ -395,9 +395,19 @@ body{
 	}
 }
 
-@media(max-width: 415px){
-		.btn-go{
-		border: solid 1px #fff !important;
-		color: #fff;
-    }
+@media(max-width: 473px){
+	.text-flex{
+		height: 350px;
+		width: auto;
+		padding-top: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media(max-width:339px){
+	.btn-go {
+		background: #111111;
+		color: #ffd21e;
+	}
 }
