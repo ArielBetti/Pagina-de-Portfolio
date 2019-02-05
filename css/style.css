@@ -24,22 +24,18 @@ body{
 	background-position: center;
 	background-size: cover;
 	height: 500px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
 
 }
 
-.user-flex{
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	align-content: flex-end;
+.user-flex p{
+	align-items: flex-end;
 }
 
 .fume{
 	background-color: rgba(17,17,17,0.6)
-}
-
-.scrollsuave{
-
 }
 
 .texto-grid{
@@ -60,11 +56,13 @@ body{
 }
 
 .text-flex{
-	display: flex
+	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
-	padding-top: 150px;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-top: 100px;
+	padding-left: 35px;
+	padding-right: 35px;
+
 }
 
 .user-img{
@@ -160,6 +158,10 @@ body{
 	padding-top: 0 !important;
 }
 
+.nav-efeito {
+	border-top: solid 3px transparent !important;
+}
+
 .nav-efeito:hover{
 	border-top: solid 3px #ffd21e !important;
 }
@@ -235,7 +237,7 @@ body{
 .social-icon:hover{
 	transition: 200ms;
 	transform: translateY(-5px);
-	box-shadow: 0px 2px 0px 0px #ffd21e;
+	box-shadow: 0px 2px 2px 0px #ffd21e;
 }
 
 .first-section p{
@@ -243,7 +245,7 @@ body{
 }
 
 .contato{
-	height: 150px;
+	padding: 20px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: no-wrap;
@@ -251,6 +253,29 @@ body{
 	justify-content: center;
 }
 
+.contato input {
+	color: #ffd21e !important;
+	background: #000 !important;
+	padding: 10px;
+	margin: 10px;
+	font-weight: bold;
+}
+
+.contato button {
+	border: 1px solid #000;
+	background: #000;
+	color: #ffd21e;
+	font-family: 'Quicksand';
+	border-radius: 5px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+.contato button:hover {
+	transition: 200ms;
+	transform: translateY(-3px);
+	box-shadow: 0px 2px 3px 0px #000;
+}
 
 @media(max-width: 1200px){
 	.text-flex{
